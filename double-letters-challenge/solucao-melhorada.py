@@ -6,6 +6,7 @@ def double_letters(word):
         
     return False
 
+
 print(double_letters('hello'), double_letters('hello') is True)
 print(double_letters('word'), double_letters('word') is False)
 print(double_letters('javinescula'), double_letters('javinescula') is False)
